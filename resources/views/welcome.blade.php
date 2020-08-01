@@ -87,12 +87,8 @@
                 <div class="title m-b-md">
                     <form action="/upload" method="POST" enctype="multipart/form-data">
                         @csrf
-                    <input type="file" name="upload_file">
-                    <button type="submit">Upload</button>
-                    <div class="progress">
-                        <div class="bar"></div >
-                        <div class="percent">0%</div >
-                    </div>
+                        <input type="file" name="upload_file">
+                        <button type="submit">Upload</button>
                     </form>
                 </div>
             </div>
